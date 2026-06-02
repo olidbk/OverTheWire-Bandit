@@ -6,9 +6,11 @@
 
 ## Solution
 
-**when you enter the website just hit "Ctrl + u" to view the page source code and you will find the password for the next level**
+```shell
+curl -u natas0:natas0 http://natas0.natas.labs.overthewire.org | grep -i "natas1"
+```
 
-```html
+```text
 <!--The password for natas1 is 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq -->
 ```
 

@@ -5,10 +5,11 @@
 
 ## Solution
 
-**same as level 0**
-**you will find the flag in the source code**
+```shell
+curl -u natas1:0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq http://natas1.natas.labs.overthewire.org | grep -i "natas2"
+```
 
-```html
+```text
 <!--The password for natas2 is TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI -->
 ```
 

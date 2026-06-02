@@ -3,12 +3,37 @@
 > Username: natas2
 > URL:      http://natas2.natas.labs.overthewire.org
 
-# Solution
+## Solution
 
-**enter the level then open the source code of the page. when you open it you will see a directory called "files"**
+```shell
+curl -u natas2:TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI http://natas2.natas.labs.overthewire.org/
+```
 
-```url
-http://natas2.natas.labs.overthewire.org/files/
+```html
+<html>
+<head>
+<!-- This stuff in the header has nothing to do with the level -->
+<link rel="stylesheet" type="text/css" href="http://natas.labs.overthewire.org/css/level.css">
+<link rel="stylesheet" href="http://natas.labs.overthewire.org/css/jquery-ui.css" />
+<link rel="stylesheet" href="http://natas.labs.overthewire.org/css/wechall.css" />
+<script src="http://natas.labs.overthewire.org/js/jquery-1.9.1.js"></script>
+<script src="http://natas.labs.overthewire.org/js/jquery-ui.js"></script>
+<script src=http://natas.labs.overthewire.org/js/wechall-data.js></script><script src="http://natas.labs.overthewire.org/js/wechall.js"></script>
+<script>var wechallinfo = { "level": "natas2", "pass": "TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI" };</script></head>
+<body>
+<h1>natas2</h1>
+<div id="content">
+There is nothing on this page
+<img src="files/pixel.png">
+</div>
+</body></html>
+```
+
+**we see that there is a directory named "/files". so let's check it in the browser**
+**we found that there is a file named "/users.txt" on it so**
+
+```shell
+curl -u natas2:TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI http://natas2.natas.labs.overthewire.org/files/users.txt
 ```
 
 ```text
