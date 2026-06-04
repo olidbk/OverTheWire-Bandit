@@ -2,11 +2,15 @@
 
 > Good job getting a shell! Now hurry and grab the password for bandit27!
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit26@bandit.labs.overthewire.org -p 2220
+ssh bandit26@bandit.labs.overthewire.org -p 2220
+
+s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 ```
+
+## Solution
 
 **after we have a shell in the previous level now we are 'bandit26' so let's have the password for the next level**
 

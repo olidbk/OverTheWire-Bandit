@@ -5,11 +5,15 @@
 	1033 bytes in size
 	not executable
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit5@bandit.labs.overthewire.org -p 2220
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```
+
+## Solution
 
 ```shell
 cd inhere

@@ -2,11 +2,15 @@
 
 > Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not **/bin/bash**, but something else. Find out what it is, how it works and how to break out of it.
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit25@bandit.labs.overthewire.org -p 2220
+ssh bandit25@bandit.labs.overthewire.org -p 2220
+
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 ```
+
+## Solution
 
 **first, we need to check what shell the user bandit26 used**
 

@@ -4,11 +4,15 @@
 > NOTE: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
 > NOTE 2: Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit23@bandit.labs.overthewire.org -p 2220
+ssh bandit23@bandit.labs.overthewire.org -p 2220
+
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 ```
+
+## Solution
 
 ```shell
 cd /etc/cron.d/

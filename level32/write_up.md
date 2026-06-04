@@ -2,11 +2,15 @@
 
 > After all this `git` stuff, it’s time for another escape. Good luck!
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit32@bandit.labs.overthewire.org -p 2220
+ssh bandit32@bandit.labs.overthewire.org -p 2220
+
+3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
 ```
+
+## Solution
 
 ```shell
 WELCOME TO THE UPPERCASE SHELL

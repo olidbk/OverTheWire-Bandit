@@ -2,6 +2,14 @@
 
 > There is a git repository at `ssh://bandit31-git@bandit.labs.overthewire.org/home/bandit31-git/repo` via the port `2220`. The password for the user `bandit31-git` is the same as for the user `bandit31`.
 
+## Login
+
+```shell
+ssh bandit31@bandit.labs.overthewire.org -p 2220
+
+fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+```
+
 ## Solution
 
 **in your machine you have to clone the repo on port 2220 and the password is same**

@@ -2,11 +2,15 @@
 
 > The password for the next level is stored in the file **data.txt** next to the word **millionth**
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit7@bandit.labs.overthewire.org -p 2220
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
+
+## Solution
 
 ```shell
 cat data.txt | grep "millionth"

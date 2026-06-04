@@ -5,11 +5,15 @@
 	owned by group bandit6
 	33 bytes in size
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit6@bandit.labs.overthewire.org -p 2220
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ```
+
+## Solution
 
 ```shell
 find / -type f -user "bandit7" -group "bandit6" -size 33c 2>/dev/null

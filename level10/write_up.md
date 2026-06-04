@@ -1,12 +1,16 @@
-# Bandit Level 10
+s# Bandit Level 10
 
 > The password for the next level is stored in the file **data.txt**, which contains base64 encoded data
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit10@bandit.labs.overthewire.org -p 2220
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ```
+
+## Solution
 
 ```shell
 base64 -d data.txt 

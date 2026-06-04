@@ -4,11 +4,15 @@
    If you need help with this level: a hint file can be found in the home directory.  
    Make sure to read the error messages as they are informative.
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit13@bandit.labs.overthewire.org -p 2220
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 ```
+
+## Solution
 
 **first copy the sshkey_privet file from bandit13 to your local machine using 'scp' (secure copy). you need to use the 'scp' command in your local machin**
 

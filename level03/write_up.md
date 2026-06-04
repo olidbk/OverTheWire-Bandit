@@ -2,11 +2,15 @@
 
 > The password for the next level is stored in a hidden file in the **inhere** directory.
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit3@bandit.labs.overthewire.org -p 2220
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
+
+## Solution
 
 ```shell
 cd inhere
