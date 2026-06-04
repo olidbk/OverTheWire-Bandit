@@ -2,11 +2,14 @@
 
 > The password for the next level is stored in a file called **-** located in the home directory
 
-## Solution
+## Login
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit1@bandit.labs.overthewire.org -p 2220
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
+## Solution
 
 **the terminal think the '-' as a switche, so you need to specify it**
 
