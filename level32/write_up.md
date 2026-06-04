@@ -5,7 +5,7 @@
 ## Solution
 
 ```shell
-sshpass -f "sshpass" ssh bandit32@bandit.labs.overthewire.org -p 2220
+sshpass -f "ssh_pass" ssh bandit32@bandit.labs.overthewire.org -p 2220
 ```
 
 ```shell
