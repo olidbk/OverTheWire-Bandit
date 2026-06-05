@@ -32,7 +32,6 @@ Throughout the Bandit wargame, I encounter and practice topics such as:
 * Permissions and ownership
 * SSH
 * Searching and filtering data
-* Text processing tools
 * Encodings and transformations
 * Networking basics
 * Scripting fundamentals
