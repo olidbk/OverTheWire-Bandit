@@ -14,7 +14,13 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 
 ```shell
 mktemp -d
+```
+
+```shell
 cd /tmp/tmp.Jw3XQ1hx0S
+```
+
+```shell
 cp ~/data.txt .
 ```
 
@@ -22,7 +28,7 @@ cp ~/data.txt .
 xxd -r data.txt > data2.txt
 ```
 
-**we need to use the command 'file' to know what is the tipe of the file then change his extension**
+**We need to use the command `file` to know what is the tipe of the file then change his extension.**
 
 ```shell
 file data2.txt
@@ -77,7 +83,7 @@ file data10
 cat data10
 ```
 
-**finally...**
+**Finally...**
 
 ```text
 FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn

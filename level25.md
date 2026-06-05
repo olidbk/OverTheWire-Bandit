@@ -12,7 +12,7 @@ iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
 ## Solution
 
-**first, we need to check what shell the user bandit26 used**
+**First, we need to check what shell the user bandit26 used.**
 
 ```shell
 cat /etc/passwd | grep bandit26
@@ -35,26 +35,29 @@ more ~/text.txt
 exit 0
 ```
 
-**we can see that it refers to a script called 'showtext' that opens a file called 'text.txt' with the 'more' program**
+**We can see that it refers to a script called `showtext` that opens a file called `text.Txt` with the `more` program.**
 
-**next, when we look in the home directory of the current user, we find a private ssh key**
+**Next, when we look in the home directory of the current user, we find a private ssh key.**
 
 ```shell
 ls
+```
+
+```text
 bandit26.sshkey
 ```
 
-so we have to copy the file in a new terminal and change his permissions with `chmod 600 bandit26.sshkey`, then try  to connect
+**So we have to copy the file in a new terminal and change his permissions with `chmod 600 bandit26.Sshkey`. Then try  to connect.**
 
 ```shell
 ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220
 ```
 
-**when trying to log in, we see that the connection is closed because '/usr/bin/showtext' is executed**
+**When trying to log in, we see that the connection is closed because `/usr/bin/showtext` is executed.**
 
-**what exactly has happened? The text in ’text.txt’ is very short, meaning the whole text can immediately be displayed. `more` does not need to go into command/interactive mode. if we make the terminal window smaller, `more` will go into command mode. we can then use `v` to go into vim. now we can rescale the terminal**
+**What exactly has happened? The text in ’text.Txt’ is very short, meaning the whole text can immediately be displayed. `more` does not need to go into command/interactive mode. If we make the terminal window smaller, `more` will go into command mode. We can then use `v` to go into vim. Now we can rescale the terminal.**
 
-**Vim is now opened as 'bandit26'. so to find the password we need first to set the default shell of the user in vim to a useful shell, like `\bin\bash`. the commands look like the following: `:set shell=/bin/bash` and then use `:shell`. finally, we have a shell of `bandit26@bandit:~$` and can get the password for the user**
+**Vim is now opened as 'bandit26'. So to find the password we need first to set the default shell of the user in vim to a useful shell, like `\bin\Bash`. The commands look like the following: `:set shell=/bin/Bash` and then use `:shell`. Finally, we have a shell of `bandit26@bandit:~$` and can get the password for the user.**
 
 ```shell
 cat /etc/bandit\_pass/bandit26

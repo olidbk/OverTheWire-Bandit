@@ -9,9 +9,10 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
+
 ## Solution
 
-**the terminal think the '-' as a switche, so you need to specify it**
+**The terminal think the `-` as parameter, so you need to specify it.**
 
 ```sehll
 cat ./-

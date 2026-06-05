@@ -24,7 +24,7 @@ cat /etc/bandit_pass/bandit15
 echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | openssl s_client -connect localhost:30001
 ```
 
-**we have to add the '-ing_eof' to the command to (ignore End of File) and get the password**
+**We have to add the `-ing_eof` to the command to (ignore End of File) and get the password.**
 
 ```shell
 echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | openssl s_client -connect localhost:30001 -ign_eof
@@ -33,3 +33,4 @@ echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | openssl s_client -connect localhost:30
 ```text
 kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 ```
+

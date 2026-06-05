@@ -12,9 +12,15 @@ EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 ## Solution
 
-```bash
+```shell
 cd /etc/cron.d/
+```
+
+```shell
 ls -la
+```
+
+```bash
 cat cronjob_bandit22
 ```
 

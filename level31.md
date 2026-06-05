@@ -12,10 +12,17 @@ fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
 
 ## Solution
 
-**in your machine you have to clone the repo on port 2220 and the password is same**
+**In your machine you have to clone the repo on port 2220 and the password is the same.**
+
+```shell
+git clone ssh://bandit31-git@bandit.labs.overthewire.org:2220/home/bandit31-git/repo
+```
 
 ```shell
 cd repo
+```
+
+```shell
 cat README.md
 ```
 
@@ -28,7 +35,7 @@ Details:
     Branch: master
 ```
 
-**so we have to push a file to the remote repository**
+**So we have to push a file to the remote repository.**
 
 ```shell
 echo "May I come in?" > key.txt
@@ -45,7 +52,7 @@ hint: Use -f if you really want to add them.
 hint: Disable this message with "git config set advice.addIgnoredFile false"
 ```
 
-**so the gitignore stop us from add the file**
+**So the `.gitignore` stop us from add the file.**
 
 ```shell
 cat .gitignore
@@ -55,19 +62,19 @@ cat .gitignore
 *.txt
 ```
 
-**we have to add '-f' parameter to force it**
+**We have to add `-f` parameter to force it.**
 
 ```shell
 git add key.txt -f
 ```
 
-**then commit it**
+**Then commit it.**
 
 ```shell
 git commit -a
 ```
 
-**then push it**
+**Then push it.**
 
 ```shell
 git push -u origin master

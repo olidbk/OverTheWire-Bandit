@@ -12,7 +12,7 @@ upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
 ## Solution
 
-**in your machine you have to clone the repo on port 2220 and the password is same**
+**In your machine you have to clone the repo on port 2220 and the password is the same.**
 
 ```shell
 git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
@@ -20,6 +20,9 @@ git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/
 
 ```shell
 cd repo
+```
+
+```shell
 cat README.md
 ```
 

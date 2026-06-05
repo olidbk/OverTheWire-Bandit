@@ -13,10 +13,6 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 ## Solution
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit2@bandit.labs.overthewire.org -p 2220
-```
-
-```shell
 cat ./--spaces\ in\ this\ filename--
 ```
 

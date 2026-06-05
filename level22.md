@@ -15,7 +15,13 @@ tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 ```shell
 cd /etc/cron.d/
+```
+
+```shell
 ls -la
+```
+
+```shell
 cat cronjob_bandit23
 ```
 
@@ -40,7 +46,7 @@ cat /etc/bandit_pass/$myname > /tmp/$mytarget
 ```
 
 ```shell
-echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+echo "I am user bandit23" | md5sum | cut -d ' ' -f 1
 ```
 
 ```text

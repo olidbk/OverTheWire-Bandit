@@ -17,6 +17,9 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 ```shell
 cd inhere
+```
+
+```shell
 find . -type f -readable -not -executable -size 1033c
 ```
 

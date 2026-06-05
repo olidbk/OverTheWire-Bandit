@@ -22,14 +22,16 @@ kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 ```shell
 nmap -sV -p31000-32000 localhost
+```
 
-	31790/tcp open  ssl/unknown
+```text
+31790/tcp open  ssl/unknown
 ```
 
 ```shell
 echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | openssl s_client -connect localhost:31790 -ign_eof
 ```
 
-**then he will give you a ssh privat key you need to copy it and past it in a file in your local machine. then change his permetion with 'chmod 600 file_name'. 
-then use it to connect to the next level**
+**Then he will give you a SSH privat key you need to copy it and past it in a file in your local machine. Then change his permetion with `chmod 600 file_name`.**
+**Then use it to connect to the next level.**
 

@@ -12,12 +12,13 @@ x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
 ## Solution
 
-**the script will log you out so you need to add your commande with the connection**
+**The script will log you out so you need to add your commande with the connection.**
 
 ```shell
-sshpass -f "sshpass" ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
 ```
 
 ```text
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```
+

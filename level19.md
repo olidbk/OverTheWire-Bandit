@@ -13,22 +13,20 @@ cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ## Solution
 
 ```shell
-sshpass -f "ssh_pass" ssh bandit19@bandit.labs.overthewire.org -p 2220
-```
-
-```shell
 ls -lah
 ```
 
-**we see that the file is a setuid file, that's means we can act as another user when we run the script**
+**We see that the file is a setuid file, that's means we can act as another user when we run the script.**
 
 ```shell
 ./bandit20-do whoami
-
-	bandit20
 ```
 
-when we run the script we act like user 'bandit20' so let's read the password for the next level
+```text
+bandit20
+```
+
+**When we run the script we act like user `bandit20` so let's read the password for the next level.**
 
 ```shell
 ./bandit20-do cat /etc/bandit_pass/bandit20
