@@ -16,7 +16,7 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 cd inhere
 ```
 
-**The `file` command help you see the data type of the file.**
+The `file` command help you see the data type of the file.
 
 ```shell
 file ./*

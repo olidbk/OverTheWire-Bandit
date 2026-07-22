@@ -12,7 +12,7 @@ Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
 
 ## Solution
 
-**In your machine you have to clone the repo on port 2220 and the password is the same.**
+In your machine you have to clone the repo on port 2220 and the password is the same.
 
 ```shell
 git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
@@ -36,7 +36,7 @@ Some notes for level29 of bandit.
 - password: xxxxxxxxxx
 ```
 
-**The password is hidden so let's check the logs.**
+The password is hidden so let's check the logs.
 
 ```shell
 git log
@@ -62,7 +62,7 @@ Date:   Fri Apr 3 15:17:37 2026 +0000
     initial commit of README.md
 ```
 
-**Let's check `fix info leak` log.**
+Let's check `fix info leak` log.
 
 ```shell
 git show a1487fd098591dfa210ede70ba60f7093f47d20d

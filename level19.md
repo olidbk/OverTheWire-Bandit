@@ -16,7 +16,7 @@ cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ls -lah
 ```
 
-**We see that the file is a setuid file, that's means we can act as another user when we run the script.**
+We see that the file is a setuid file, that's means we can act as another user when we run the script.
 
 ```shell
 ./bandit20-do whoami
@@ -26,7 +26,7 @@ ls -lah
 bandit20
 ```
 
-**When we run the script we act like user `bandit20` so let's read the password for the next level.**
+When we run the script we act like user `bandit20` so let's read the password for the next level.
 
 ```shell
 ./bandit20-do cat /etc/bandit_pass/bandit20

@@ -58,15 +58,15 @@ do
 done
 ```
 
-**In short the script here is search in the path `/var/spool/bandit24/foo` and then executes any shell script owned by bandit23, gives it 60 seconds to run, and then deletes it. So we can write a script to read the password for bandit 24.**
+In short the script here is search in the path `/var/spool/bandit24/foo` and then executes any shell script owned by bandit23, gives it 60 seconds to run, and then deletes it. So we can write a script to read the password for bandit 24.
 
 ```shell
 mkdir /tmp/my_temp/
 chmod 777 /tmp/my_temp/
 ```
 
-**We make directory in `/tmp/` to make a file so we can write the password on it to have the permission to read it. Then we give it `777` to make all the users have permission on it so bandit24 can write on it.**
-**Then we have to creat the script in `/var/spool/bandit24/foo/` and make it executable.**
+We make directory in `/tmp/` to make a file so we can write the password on it to have the permission to read it. Then we give it `777` to make all the users have permission on it so bandit24 can write on it.
+Then we have to creat the script in `/var/spool/bandit24/foo/` and make it executable.
 
 ```shell
 nano /var/spool/bandit24/foo/bash_script.sh 
@@ -83,7 +83,7 @@ chmod 777 /tmp/my_temp/password.txt
 chmod +x /var/spool/bandit24/foo/bash_script.sh
 ```
 
-**After 60 second the `password.txt` file will created and the script will deleated.**
+After 60 second the `password.txt` file will created and the script will deleated.
 
 ```shell
 cat /tmp/my_temp/password.txt

@@ -26,8 +26,8 @@ This program will connect to the given port on localhost using TCP.
 If it receives the correct password from the other side, the next password is transmitted back.
 ```
 
-**Here we need to use `netcat` to create a listening server, to receive the password from the script.**
-**We have to add `&` to make the process run in the background, so we can run another commands.**
+Here we need to use `netcat` to create a listening server, to receive the password from the script.
+We have to add `&` to make the process run in the background, so we can run another commands.
 
 ```shell
 echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l 1234 &

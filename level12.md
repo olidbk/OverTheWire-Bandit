@@ -28,7 +28,7 @@ cp ~/data.txt .
 xxd -r data.txt > data2.txt
 ```
 
-**We need to use the command `file` to know what is the tipe of the file then change his extension.**
+We need to use the command `file` to know what is the tipe of the file then change his extension.
 
 ```shell
 file data2.txt
@@ -83,7 +83,7 @@ file data10
 cat data10
 ```
 
-**Finally...**
+Finally...
 
 ```text
 FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn

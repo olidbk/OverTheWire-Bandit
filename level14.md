@@ -10,7 +10,7 @@ ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 
 ## Solution
 
-**To take the password of the current level.**
+To take the password of the current level.
 
 ```shell
 cat /etc/bandit_pass/bandit14

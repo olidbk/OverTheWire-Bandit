@@ -12,7 +12,7 @@ s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 
 ## Solution
 
-**After we have a shell in the previous level now we are `bandit26` so let's have the password for the next level.**
+After we have a shell in the previous level now we are `bandit26` so let's have the password for the next level.
 
 ```shell
 ls -lh

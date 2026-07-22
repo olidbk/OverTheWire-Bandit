@@ -13,7 +13,7 @@ gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 ## Solution
 
-**First let's check what is the response.**
+First let's check what is the response.
 
 ```shell
 nc localhost 30002
@@ -27,7 +27,7 @@ I am the pincode checker for user bandit25. Please enter the password for user b
 Wrong! Please enter the correct current password and pincode. Try again.
 ```
 
-**So we have to make a script that loops all the combinations.**
+So we have to make a script that loops all the combinations.
 
 ```shell
 mkdir /tmp/my_temp/
@@ -48,7 +48,7 @@ done
 chmod +x /tmp/my_temp/brute_bash.sh
 ```
 
-**Then you have to send the result of the script to a text file.**
+Then you have to send the result of the script to a text file.
 
 ```shell
 /tmp/my_temp/brute_bash.sh > /tmp/my_temp/dict_brute.txt

@@ -12,7 +12,7 @@ ssh bandit29@bandit.labs.overthewire.org -p 2220
 
 ## Solution
 
-**In your machine you have to clone the repo on port 2220 and the password is the same.**
+In your machine you have to clone the repo on port 2220 and the password is the same.
 
 ```shell
 git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
@@ -36,7 +36,7 @@ Some notes for bandit30 of bandit.
 - password: <no passwords in production!>
 ```
 
-**After checking a wile we will notice that we have to check the branches.**
+After checking a wile we will notice that we have to check the branches.
 
 ```shell
 git branch -a

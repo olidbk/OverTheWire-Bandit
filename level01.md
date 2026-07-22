@@ -12,7 +12,7 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ## Solution
 
-**The terminal think the `-` as parameter, so you need to specify it.**
+The terminal think the `-` as parameter, so you need to specify it.
 
 ```sehll
 cat ./-

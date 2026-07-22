@@ -12,7 +12,7 @@ qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
 
 ## Solution
 
-**In your machine you have to clone the repo on port 2220 and the password is the same.**
+In your machine you have to clone the repo on port 2220 and the password is the same.
 
 ```shell
 git clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
@@ -30,7 +30,7 @@ cat README.md
 just an epmty file... muahaha
 ```
 
-**The `readme.Md` does not give us any information. Checking the git tag, we find a point in the history called `secret`.**
+The `readme.Md` does not give us any information. Checking the git tag, we find a point in the history called `secret`.
 
 ```shell
 git tag
