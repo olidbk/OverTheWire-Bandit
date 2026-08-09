@@ -4,7 +4,7 @@ My personal notes and writeups for the **OverTheWire Bandit** wargame.
 
 This repository serves as a learning journal where I document my progress, commands, observations, and solutions while working through the Bandit levels. The goal is not to provide copy-paste answers, but to keep track of what I learned and how I approached each challenge.
 
-## 🛡️ About Bandit
+## About Bandit
 
 Bandit is a beginner-friendly Linux security wargame created by OverTheWire. It is designed to teach basic Linux command-line skills, file manipulation, text processing, permissions, networking concepts, and problem-solving techniques commonly used in cybersecurity.
 
@@ -12,7 +12,7 @@ Official website:
 
 https://overthewire.org/wargames/bandit/
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -23,7 +23,7 @@ https://overthewire.org/wargames/bandit/
 └── README.md
 ```
 
-## ⚙️ Topics Covered
+## Topics Covered
 
 Throughout the Bandit wargame, I encounter and practice topics such as:
 
@@ -36,7 +36,7 @@ Throughout the Bandit wargame, I encounter and practice topics such as:
 * Networking basics
 * Scripting fundamentals
 
-## 🎯 Purpose
+## Purpose
 
 This repository exists primarily for:
 
@@ -45,6 +45,6 @@ This repository exists primarily for:
 * Reinforcing concepts through documentation
 * Building a habit of technical journaling
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 These writeups are intended for educational purposes and personal learning. If you are currently working through Bandit yourself, consider attempting each level before reading the corresponding notes.
