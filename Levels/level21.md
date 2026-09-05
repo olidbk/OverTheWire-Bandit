@@ -4,7 +4,7 @@
 
 ## Login
 
-```bash
+```shell
 ssh bandit21@bandit.labs.overthewire.org -p 2220
 
 EeoULMCra2q0dSkYj561DX7s1CpBuOBt
@@ -20,26 +20,26 @@ cd /etc/cron.d/
 ls -la
 ```
 
-```bash
+```shell
 cat cronjob_bandit22
 ```
 
-```shell
+```text
 @reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
 * * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
 ```
 
-```bash
+```shell
 cat /usr/bin/cronjob_bandit22.sh
 ```
 
-```bash
+```text
 #!/bin/bash
 chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ```
 
-```bash
+```shell
 cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ```
 
