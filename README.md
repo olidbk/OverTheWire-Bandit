@@ -16,7 +16,7 @@ https://overthewire.org/wargames/bandit/
 
 ```text
 .
-├── Levels
+├── Levels/
 │   ├── Level00.md
 │   ├── Level01.md
 │   ├── Level02.md
